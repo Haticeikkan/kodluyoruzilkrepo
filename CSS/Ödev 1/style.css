@@ -1,0 +1,16 @@
+li:nth-child(even){
+    color: rgb(109, 109, 237);
+} */
+
+h1 {
+font-size: 40px;
+color: #299ead;
+}
+
+p {
+font-size: 25px;
+}
+
+li{
+    list-style-position: inside;
+}
