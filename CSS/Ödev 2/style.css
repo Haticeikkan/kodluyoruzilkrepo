@@ -1,0 +1,84 @@
+* {
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 10px;
+    width: 88vw;
+    height: max-content;
+}
+
+.ustkutu {
+    background-color: #ddd;
+    height: max-content;
+}
+
+form,
+.altkutu {
+    text-align: center;
+    height: fit-content;
+}
+
+.altkutu {
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+
+.altkutu div {
+    float: left;
+    height: 84px;
+    display: block;
+    margin-top: 2px;
+}
+
+.birincikutu {
+    width: 37%;
+    background-color: rgb(126, 229, 218);
+    font-size: 16px;
+    margin-right: 1px ;
+}
+
+.birincikutu p {
+    margin-top: 15px;
+}
+
+.ikincikutu {
+    width: 25%;
+    background-color: rgb(112, 204, 194);
+    font-size: 13px;
+    margin-right: 1px ;
+}
+
+.ikincikutu p {
+    margin-top: 10px;
+}
+
+.ucuncukutu {
+    width: 37.77%;
+    background-color: rgb(98, 179, 170);
+    font-size: 13px;
+    margin-right: 1px ;
+}
+
+.ucuncukutu a {
+    margin-left: 10px;
+}
+
+.ucuncukutu input::placeholder {
+    color: black;
+}
+
+.telif {
+    display: block;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
