@@ -1,0 +1,31 @@
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+*********************************************************************************
+Cevap:
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+1.Adım:Dizimiz sırasız bir dizi olduğu için root olarak kendimize dizimizin ilk elemanı olan 7'yi root olarak seçiyourz.
+2.Adım:Sıradaki 5 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Küçük olduğu için 7'nin sol tarafına yazıyoruz.
+3.Adım:Sıradaki 1 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Küçük olduğu için 7'nin sol tarafına yazıyoruz.Karşımıza 5 elemanı çıkıyor.5'den de küçük olduğu için 5'inde sol tarafına yazıyoruz.
+4.Adım:Sıradaki 8 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Büyük olduğu için 7'nin sağ tarafına yazıyoruz.
+5.Adım:Sıradaki 3 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Küçük olduğu için 7'nin sol tarafına yazıyoruz.Karşımıza 5 elemanı çıkıyor.5'den de küçük olduğu için 5'inde sol tarafına yazıyoruz. Karşımıza 1 elemanı çıkıyor ve 3 elemanımız 1'den büyük olduğu için 1'in sağ tarafına yazıyoruz. 
+6.Adım:Sıradaki 6 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Küçük olduğu için 7'nin sol tarafına yazıyoruz.Karşımıza 5 elemanı çıkıyor.5'den de büyük olduğu için 5'inde sağ tarafına yazıyoruz.
+7.Adım:Sıradaki 0 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Küçük olduğu için 7'nin sol tarafına yazıyoruz.Karşımıza 5 elemanı çıkıyor.5'den de küçük olduğu için 5'inde sol tarafına yazıyoruz. Karşımıza 1 elemanı çıkıyor ve 0 elemanımız 1'den küçük olduğu için 1'in sol tarafına yazıyoruz.
+8.Adım:Sıradaki 9 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Büyük olduğu için 7'nin sağ tarafına yazıyoruz.Karşımıza 8 elemanı çıkıyor.8'den de büyük olduğu için 8'inde sağ tarafına yazıyoruz.
+9.Adım:Sıradaki 4 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Küçük olduğu için 7'nin sol tarafına yazıyoruz.Karşımıza 5 elemanı çıkıyor.5'den de küçük olduğu için 5'inde sol tarafına yazıyoruz. Karşımıza 1 elemanı çıkıyor ve 4 elemanımız 1'den büyük olduğu için 1'in sağ tarafına bakıyoruz.Orada 3 elemanı var. 4'de 3'den büyük olduğu için 3'ün sağ kısmına yazıyoruz. 
+10.Adım:Sıradaki 2 elemanına soruyoruz 7'den büyük müsün küçük müsün ? Küçük olduğu için 7'nin sol tarafına yazıyoruz.Karşımıza 5 elemanı çıkıyor.5'den de küçük olduğu için 5'inde sol tarafına yazıyoruz. Karşımıza 1 elemanı çıkıyor ve 2 elemanımız 1'den büyük olduğu için 1'in sağ tarafına bakıyoruz. Orada 3 elemanı var. 2'de 3'den küçük olduğu için 3'ün sol kısmına yazıyoruz.
+
+Ağaç Şeklinde görüntüsü;
+
+                      7
+                 .          .
+             5                  8
+          .     .                   .
+       1           6                     9
+     .   .
+   0       3
+          .  .
+         2    4
